@@ -38,4 +38,9 @@ public class LoginPage extends BaseClass {
 		
 		return SigninBtn;
 	}
+	
+	Public void test(){
+		
+		
+	}
 }
