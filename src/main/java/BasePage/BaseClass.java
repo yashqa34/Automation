@@ -19,8 +19,8 @@ public class BaseClass {
 	public WebDriver initializeBrowser() throws Exception
 	{
 		prop = new Properties();
-		FileInputStream fis =new FileInputStream("C:/Users/Dell/eclipse-workspace/Sample/src/main/java/BasePage/Properties");
-		prop.load(fis);
+		FileInputStream fist =new FileInputStream("C:/Users/Dell/eclipse-workspace/Sample/src/main/java/BasePage/Properties");
+		prop.load(fist);
 		String browserName=prop.getProperty("Browser");
 		System.out.println("hiii");
 		if(browserName.equals("chrome"))
